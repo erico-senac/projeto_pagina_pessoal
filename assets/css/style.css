@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-image: url("/assets/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-attachment: fixed;
+}
+#main{
+    width: 48.5rem;
+    margin: auto;
+}
+main{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: hsl(180, 100%, 50%, 0.10);
+}
+ul{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 20px;
+}
+nav {
+    padding: 0.25rem;
+    background-color: #5f9ea0;
+    height: 1.5rem;
+}
+nav a{
+    padding: 0.25rem;
+    text-decoration: none;
+    color: white;
+    height: 1.5rem;
+}
+nav a:hover{
+    background-color: brown;
+}
+section.card_section{
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
