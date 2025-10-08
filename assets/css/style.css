@@ -1,14 +1,18 @@
+/* Reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* html{
+    font-size: 18px;
+} */
 body{
     margin: auto;
     background-image: url("/assets/img/fundo.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 70rem;
     background-attachment: fixed;
 }
 #main{
@@ -16,9 +20,16 @@ body{
     margin: auto;
 }
 main{
+    font-size: 2rem;
     margin-top: 2rem;
     padding: 1rem;
     background-color: hsl(180, 100%, 50%, 0.10);
+}
+main > h1{
+    font-size: 2rem;
+}
+main h2 {
+    font-size: 1em;
 }
 ul{
     display: flex;
@@ -26,12 +37,20 @@ ul{
     list-style: none;
     gap: 20px;
 }
+header nav ul li{
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+header nav ul li:first-child{
+    border-right-style: none;
+}
 nav {
     padding: 0.25rem;
     background-color: #5f9ea0;
     height: 1.5rem;
 }
-nav a{
+nav a.item_menu{
     padding: 0.25rem;
     text-decoration: none;
     color: white;
